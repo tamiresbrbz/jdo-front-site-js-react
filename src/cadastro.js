@@ -22,45 +22,45 @@ function Cadastro() {
 
   return (
     <div className="cadastro-container">
-      <form onSubmit={handleSubmit}>
-        <h1>Cadastro</h1>
-        <label>Nome Completo</label>
-        <input
-          type="text"
-          name="nomeCompleto"
-          value={formData.nomeCompleto}
-          onChange={handleChange}
-        />
-        <label>Data de Nascimento</label>
-        <input
-          type="date"
-          name="dataNascimento"
-          value={formData.dataNascimento}
-          onChange={handleChange}
-        />
-        <label>Email</label>
-        <input
-          type="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-        />
-        <label>Senha</label>
-        <input
-          type="password"
-          name="senha"
-          value={formData.senha}
-          onChange={handleChange}
-        />
-        <label>Confirmação de Senha</label>
-        <input
-          type="password"
-          name="confirmacaoSenha"
-          value={formData.confirmacaoSenha}
-          onChange={handleChange}
-        />
-        <button type="submit">Avançar</button>
-      </form>
+        <form onSubmit={handleSubmit}>
+          <h1>Cadastro</h1>
+          <label>Nome Completo</label>
+          <input
+            type="text"
+            name="nomeCompleto"
+            value={formData.nomeCompleto}
+            onChange={handleChange}
+          />
+          <label>Data de Nascimento</label>
+          <input
+            type="date"
+            name="dataNascimento"
+            value={formData.dataNascimento}
+            onChange={handleChange}
+          />
+          <label>Email</label>
+          <input
+            type="email"
+            name="email"
+            value={formData.email}
+            onChange={handleChange}
+          />
+          <label>Senha</label>
+          <input
+            type="password"
+            name="senha"
+            value={formData.senha}
+            onChange={handleChange}
+          />
+          <label>Confirmação de Senha</label>
+          <input
+            type="password"
+            name="confirmacaoSenha"
+            value={formData.confirmacaoSenha}
+            onChange={handleChange}
+          />
+          <button type="submit">Avançar</button>
+        </form>
     </div>
   );
 }
