@@ -8,6 +8,53 @@
   flex-direction: column;
 }
 
+/* Estilizando o menu */
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100%;
+  background-color: #19421c;
+}
+
+.menu-icon {
+  display: flex;
+  align-items: center;
+}
+
+.game-logo {
+  height: 50px;
+  width: auto;
+}
+
+.menu-options {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-options a {
+  color: #f7d287; /* Cor amarela */
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.menu-options a:hover {
+  color: #ffcc33;
+}
+
+.sound-icon {
+  height: 30px;
+  width: auto;
+  cursor: pointer;
+}
+
+header{
+  position: fixed;
+  top: 0;
+}
+
+/*Estilizando o form de cadastro*/
 form {
   display: flex;
   flex-direction: column;
@@ -42,7 +89,6 @@ button {
   height: 25%;
   
 }
-
 button:hover {
   background-color: #2e6b2e;
 }
