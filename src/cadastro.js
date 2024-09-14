@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./cadastro.css"; // criar o estilo depois
+import "./cadastro.css";
 import gameIcon from './images/icon2.png';
 import soundIcon from './images/soundicon.png';
 
@@ -24,7 +24,7 @@ function Cadastro() {
 
   return (
     <div className="cadastro-container">
-      <header className="menu">
+      <header className="menu"> 
         <div className="menu-icon">
           <img src={gameIcon} alt="Jogo da Onça" className="game-logo" />
         </div>
